@@ -1,2 +1,1 @@
-# disabled_smb1_signature_powershell
-disabled_smb1_signature_powershell
+Set-SmbClientConfiguration -RequireSecuritySignature $false
